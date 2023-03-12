@@ -1,0 +1,61 @@
+<navegacion></navegacion>
+<br/>
+<div class="row">
+    <div class="col-md-5">
+        <input type="text" class="col-md-5" placeholder="Intenta con New York o 10020.">
+
+        <div>
+            <br>
+            <button class="btn btn-outline-dark" style="margin-left: 10px" name="workspace">Tipo de espacio de trabajo</button>
+            <button class="btn btn-outline-dark" style="margin-left: 10px" id="search-chip__workspace" name="workspace">Capacidad</button> 
+            <button class="btn btn-outline-dark" style="margin-left: 10px" id="search-chip__workspace" name="workspace">Mudarse</button>
+        </div>
+        <br>
+        <div class="col-md-11">
+            <p class="prueba">Indica tu <a href="#">capacidad</a> y <a href="#">fecha de ingreso </a>para ver el
+                inventario disponible.</p>
+        </div>
+        <div>
+            <span class="span">Viendo 0 edificios de WeWork.</span>
+        </div>
+        <br>
+        <div class="jumbotron prueba2">
+            <h4>Desafortunadamente, no hay edificios de WeWork en esta zona</h4>
+            <p class="lead"> A menudo, agregamos nuevas ubicaciones y la disponibilidad de espacios cambia todo el
+                tiempo.
+                Comunícate con nuestro equipo para ver si abriremos una ubicación en tu zona pronto.<br>
+            Intenta buscar en ciudades cercanas para considerar opciones adicionales.</p>
+            <p class="lead">
+                <a class="btn btn-outline-primary" href="#" role="button">Ponte en Contacto</a>
+            </p>
+        </div>
+
+
+    </div>
+
+    <div class="col-md-7">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.711570690612!2d-77.27499585!3d1.2105102499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e2!4m0!4m0!5e0!3m2!1ses-419!2sco!4v1678627362184!5m2!1ses-419!2sco"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</div>
+
+<router-outlet></router-outlet>
+
+<style>
+    .prueba {
+        background-color: #dbdbf0
+    }
+
+    .prueba2 {
+        background-color: #f7f7f7;
+        color: #000;
+        border-radius: 0.25rem;
+        border: 1px solid #e6e6e7;
+    }
+</style>
+
+<br/>
+<foot></foot>
